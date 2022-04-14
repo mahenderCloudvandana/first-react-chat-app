@@ -8,7 +8,7 @@ import 'firebase/compat/analytics';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
-console.log(process.env.REACT_APP_API_KEY);
+
 firebase.initializeApp({
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "all-i-know.firebaseapp.com",
